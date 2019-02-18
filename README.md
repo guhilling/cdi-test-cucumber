@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/guhilling/cdi-test.svg?branch=master)](https://travis-ci.org/guhilling/cdi-test-extensions)
+[![Build Status](https://travis-ci.org/guhilling/cdi-test-cucumber.svg?branch=master)](https://travis-ci.org/guhilling/cdi-test-extensions)
 
 # Cucumber extension for cdi-test
 
