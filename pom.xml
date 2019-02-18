@@ -2,16 +2,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.hilling.junit.cdi</groupId>
-    <artifactId>cdi-test-extensions</artifactId>
+    <artifactId>${cdi-test.project}</artifactId>
     <version>2.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
-    <url>https://github.com/guhilling/cdi-test-extensions</url>
+    <url>https://github.com/guhilling/${cdi-test.project}</url>
     <inceptionYear>2018</inceptionYear>
-    <name>CDI Test Extensions</name>
-    <description>add-ons for cdi-test</description>
+    <name>CDI Test Cucumber Extension</name>
+    <description>cucumber add-ons for cdi-test</description>
 
     <properties>
+        <cdi-test.project>cdi-test-cucumber</cdi-test.project>
 		<cdi-test.version>2.0.0</cdi-test.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.9</java.version>
@@ -45,7 +46,7 @@
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/guhilling/cdi-test-extensions</url>
+        <url>https://travis-ci.org/guhilling/${cdi-test.project}</url>
         <notifiers />
     </ciManagement>
 
